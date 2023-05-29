@@ -1,0 +1,22 @@
+{
+  "name": "clabsid/easy-laravel-package",
+  "description": "Easy package for create repository, service, traits, view from artisan and generate custom ID",
+  "type": "library",
+  "require": {
+    "php": "^8.0",
+    "spatie/laravel-package-tools": "1.15.0"
+  },
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "EasyLaravelPackage\\": "src"
+    }
+  },
+  "authors": [
+    {
+      "name": "clabsid",
+      "email": "imho.production@gmail.com"
+    }
+  ],
+  "prefer-stable": true
+}
