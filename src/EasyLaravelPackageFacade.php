@@ -9,8 +9,8 @@ use Illuminate\Support\Facades\Facade;
  */
 class EasyLaravelPackageFacade extends Facade
 {
-    protected static function getFacadeAccessor()
-    {
-        return 'easy-laravel-package';
-    }
+  protected static function getFacadeAccessor()
+  {
+    return 'easy-laravel-package';
+  }
 }

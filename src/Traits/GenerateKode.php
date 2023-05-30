@@ -48,8 +48,11 @@ trait GenerateKode
     return substr(base_convert(sha1(uniqid(mt_rand())), 16, 36), 0, $limit);
   }
 
-  public function kode()
+  public function kode($lastKode, $lenght, $start, $awalKode = NULL, $split = NULL)
   {
-    return 'test';
+    $kode = substr($lastKode, $start);
+    $angka = (int)$kode;
+    $angka_baru = $awalKode . $split . str_repeat("0", $lenght - strlen($angka + 1)) . ($angka + 1);
+    return $angka_baru;
   }
 }

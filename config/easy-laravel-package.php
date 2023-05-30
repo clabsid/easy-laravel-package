@@ -30,4 +30,14 @@ return [
    * Default trait namespace
    */
   "trait_namespace" => "App\Traits",
+
+  /*
+    * Default location template
+    */
+  "path" => "",
+
+  /*
+    * select default stub file
+    */
+  "default" => ""
 ];
